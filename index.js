@@ -149,7 +149,6 @@
 
 // let groupByAge = (arr) => {
 //   let checkAge = {};
-
 //   arr.map((a) => {
 //     if (!checkAge[a.age]) {
 //       checkAge[a.age] = [a];
