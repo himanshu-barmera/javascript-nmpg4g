@@ -117,19 +117,19 @@
 // Find the frequency of elements in array or occurance of number in array
 // [1,2,3,1,2,3]
 
-let cntElement = (arr) => {
-  let cnt = {};
-  arr.map((a) => {
-    if (cnt[a]) {
-      cnt[a]++;
-    } else {
-      cnt[a] = 1;
-    }
-  });
-  return cnt;
-};
+// let cntElement = (arr) => {
+//   let cnt = {};
+//   arr.map((a) => {
+//     if (cnt[a]) {
+//       cnt[a]++;
+//     } else {
+//       cnt[a] = 1;
+//     }
+//   });
+//   return cnt;
+// };
 
-console.log(cntElement([1, 2, 3, 1, 2, 3, 5, 8, 9, 8, 5, 5, 5, 5, 5]));
+// console.log(cntElement([1, 2, 3, 1, 2, 3, 5, 8, 9, 8, 5, 5, 5, 5, 5]));
 
 // var a=3;
 // console.log(a)
