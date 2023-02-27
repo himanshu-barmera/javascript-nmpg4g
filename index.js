@@ -210,22 +210,16 @@
 
 /////////////////////////////////////////////////////
 // find possible combination of a string
-// let possibleCombinations = (str) => {
-//   let combinations = [];
-//   console.log('str.length ===>', str.length);
-//   console.log('str.length+1 ===>', str.length + 1);
-//   for (let i = 0; i < str.length; i++) {
-//     console.log('i=>', i);
-//     for (let j = i + 1; j < str.length + 1; j++) {
-//       console.log('j=>', j);
-//       console.log('str.length+1 ====', str.length + 1);
-//       console.log('string sliced ======> ', str.slice(i, j));
-//       combinations.push(str.slice(i, j));
-//     }
-//   }
-//   return combinations;
-// };
-// console.log(possibleCombinations('ram'));
+let possibleCombinations = (str) => {
+  let combinations = [];
+  for (let i = 0; i < str.length; i++) {
+    for (let j = i + 1; j < str.length + 1; j++) {
+      combinations.push(str.slice(i, j));
+    }
+  }
+  return combinations;
+};
+console.log(possibleCombinations('ram'));
 
 /////////////////////////////////////////////////////////
 //get the number of occurrences of each letter in specified string in JavaScript
