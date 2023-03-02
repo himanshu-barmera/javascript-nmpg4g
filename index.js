@@ -581,16 +581,3 @@ console.log(possibleCombinations('ram'));
 // console.log(cars.pop())
 // console.log(cars.shift())
 // console.log(cars.unshift('test'))
-
-//////////////////////////////////////////////////////////
-// const number = undefined + 11;
-// console.log(typeof NAN);
-// console.log(typeof 11);
-// console.log(typeof 'other');
-// if (number === NaN) {
-//   console.log('NaN');
-// } else if (number === 11) {
-//   console.log('11');
-// } else {
-//   console.log('other');
-// }
